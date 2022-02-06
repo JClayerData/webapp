@@ -14,7 +14,7 @@ docker build -t webapp_img .
 
     docker run --name webapp_cnt -d -p 8080:80 webapp_img
     
-    # Test webapp
+   # Test webapp
 
  http://localhost:8080/
 
